@@ -16,6 +16,7 @@ body{
 .container{
   width: 95%;
   margin: auto;
+  border: 1px solid gray;
 }
 
 .logo-container{
@@ -52,8 +53,12 @@ body{
   padding: 0 0 0 1vw;
   font-family: 'Barlow Condensed', sans-serif;
   font-size: 1rem;
-  color: hsl(0, 0%, 100%);
   height: 8vh;
+}
+
+.nav-bar .nav-list li a{
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
 }
 
 .nav-bar .nav-list li span{
@@ -82,4 +87,67 @@ body{
 
 .close-btn{
   width: 100%;
+}
+
+.home-main{
+  margin: 18vh 0 0 0;
+}
+
+.home-flex{
+  display: flex;
+}
+
+.home-writeup{
+  min-width: 40%;
+  color: hsl(0, 0%, 100%);
+  margin: 0 2vw 0 10vw;
+}
+
+.home-writeup h4{
+  font-size: 1.1rem;
+  font-weight: 100;
+  margin: 4vh 0 1vh;
+  font-family: 'Bellefair', serif;
+}
+
+.home-writeup h1{
+  font-size: 7rem;
+  font-weight: 100;
+  margin: 0 0 4vh 0;
+  font-family: 'Bellefair', serif;
+}
+
+.home-writeup p{
+  font-size: 1rem;
+  font-weight: 100;
+  font-family: 'Barlow Condensed', sans-serif;
+  width: 62%;
+  line-height: 170%;
+}
+
+.explore-btn{
+  min-width: 50%;
+}
+
+.outer-circle{
+  display: none;
+  /* background-color: hsla(0, 0%, 100%, 0.2); */
+  height: 350px;
+  width: 350px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10vh auto 0;
+  border: 50px solid hsla(0, 0%, 100%, 0.2);
+}
+
+.inner-circle{
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
