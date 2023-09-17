@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url("ImagesandIcons/destination/background-destination-desktop.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container{
+  width: 95%;
+  margin: auto;
+}
+
+.logo-container{
+  width: 3%;
+  margin: 7vh 3vw 0;
+}
+
+.logo{
+  width: 100%;
+}
+
+.line{
+  border-bottom: 1px solid rgba(255,255,255, 0.1);
+  width: 65%;
+  margin: -6.7vh 0 0 -33vw;
+}
+
+.nav-bar{
+  background-color: rgba(255,255,255, 0.1);
+  backdrop-filter: blur(1rem);
+  width: 55%;
+  margin: -10vh 0 0 45vw;
+  height: 13vh;
+}
+
+.nav-bar .nav-list{
+  list-style: none;
+  display: flex;
+  padding: 0 0 0 7vw;
+}
+
+.nav-bar .nav-list li{
+  margin: 4.7vh 0 0 2vw;
+  padding: 0 0 0 1vw;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 1rem;
+  height: 8vh;
+  transition: all 150ms;
+}
+
+.nav-bar .nav-list li a{
+  color: rgb(255,255,255);
+  text-decoration: none;
+}
+
+.nav-bar .nav-list li span{
+  padding: 0 1vw 0 0.7vw;
+}
+
+.nav-bar .nav-list li:hover{
+  border-bottom: 3px solid rgba(255,255,255, 0.5);
+}
+
+.toggle-container{
+  width: 3%;
+  margin: -8vh 0 0 50vw;
+  display: none;
+}
+
+.toggle-btn{
+  width: 100%;
+}
+
+.close-container{
+  width: 3%;
+  margin: -4vh 0 0 50vw;
+  display: none;
+}
+
+.close-btn{
+  width: 100%;
+}

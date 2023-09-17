@@ -56,18 +56,23 @@ body{
   transition: all 150ms;
 }
 
+.nav-bar .nav-list li:hover{
+  border-bottom: 3px solid rgba(255,255,255, 0.5);
+}
+
 .nav-bar .nav-list li a{
   color: rgb(255,255,255);
   text-decoration: none;
+}
+
+a:is(:link, :active, :visited) + .nav-list li .active{
+  border-bottom: 3px solid rgb(255, 255, 255);
 }
 
 .nav-bar .nav-list li span{
   padding: 0 1vw 0 0.7vw;
 }
 
-.nav-bar .nav-list li:hover{
-  border-bottom: 3px solid rgba(255,255,255, 0.5);
-}
 
 .toggle-container{
   width: 3%;
