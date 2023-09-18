@@ -48,12 +48,12 @@ body{
 }
 
 .nav-bar .nav-list li{
-  margin: 4.7vh 0 0 2vw;
-  padding: 0 0 0 1vw;
+  margin: 4.7vh 0 0 3vw;
   font-family: 'Barlow Condensed', sans-serif;
   font-size: 1rem;
   height: 8vh;
   transition: all 150ms;
+  word-spacing: 0.5rem;
 }
 
 .nav-bar .nav-list li:hover{
