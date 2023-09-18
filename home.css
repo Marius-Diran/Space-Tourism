@@ -60,13 +60,14 @@ body{
   border-bottom: 3px solid rgba(255,255,255, 0.5);
 }
 
+li.clicked{
+  border-bottom: 3px solid rgb(255,255,255);
+  color: red;
+}
+
 .nav-bar .nav-list li a{
   color: rgb(255,255,255);
   text-decoration: none;
-}
-
-a:is(:link, :active, :visited) + .nav-list li .active{
-  border-bottom: 3px solid rgb(255, 255, 255);
 }
 
 .nav-bar .nav-list li span{
