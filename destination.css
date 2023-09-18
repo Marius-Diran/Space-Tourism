@@ -63,6 +63,7 @@ body{
 
 .nav-bar .nav-list li span{
   padding: 0 1vw 0 0.7vw;
+  letter-spacing: 0.1rem;
 }
 
 .nav-bar .nav-list li:hover{
@@ -87,4 +88,39 @@ body{
 
 .close-btn{
   width: 100%;
+}
+
+.destination-main{
+  margin: 5vh auto 0;
+}
+
+.intro-text{
+  color: rgba(255,255,255, 0.5);
+  font-size: 1.4rem;
+  font-family: 'Barlow Condensed', sans-serif;
+  letter-spacing: 0.1rem; 
+  margin: 0 9.5vw 8vh;
+}
+
+.intro-text span{
+  padding: 0 1vw;
+  color: rgb(255,255,255);
+}
+
+.destination-flex{
+  display: flex;
+}
+
+.planet-box{
+  width: 30%;
+  margin: 0 10vw;
+}
+
+.the-moon{
+  width: 100%;
+}
+
+.mars{
+  width: 100%;
+  display: none;
 }

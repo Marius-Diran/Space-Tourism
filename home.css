@@ -60,11 +60,6 @@ body{
   border-bottom: 3px solid rgba(255,255,255, 0.5);
 }
 
-li.clicked{
-  border-bottom: 3px solid rgb(255,255,255);
-  color: red;
-}
-
 .nav-bar .nav-list li a{
   color: rgb(255,255,255);
   text-decoration: none;
@@ -72,6 +67,7 @@ li.clicked{
 
 .nav-bar .nav-list li span{
   padding: 0 1vw 0 0.7vw;
+  letter-spacing: 0.1rem;
 }
 
 
