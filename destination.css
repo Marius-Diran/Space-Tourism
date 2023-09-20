@@ -118,7 +118,14 @@ body{
 
 .the-moon{
   width: 100%;
+  display: none
+  /* transform: translateX(-120%);
+  transition: transform 550ms ease-out; */
 }
+
+/* .the-moon:hover{
+  transform: translateX(0%);
+} */
 
 .mars{
   width: 100%;
@@ -127,7 +134,7 @@ body{
 
 .europa{
   width: 100%;
-  display: none;
+  /* display: none; */
 }
 
 .titan{
@@ -136,8 +143,12 @@ body{
 }
 
 .planet-info{
-  border: 1px solid red;
-  width: 35%;
+  margin: 0 5vw;
+  width: 27%;
+}
+
+.planet-list{
+  height: 10vh;
 }
 
 .planet-list ul{
@@ -146,21 +157,144 @@ body{
 }
 
 .planet-list ul li{
-  padding: 2vh 1vw;
+  margin: 2vh 0.8vw;
+  padding: 1vh 0;
   font-size: 0.9rem;
-  color: rgb(255,255,255);
+  color: rgb(208, 214, 249);
   font-family: 'Barlow Condensed', sans-serif;
   text-transform: uppercase;
 }
 
+.planet-list ul li:hover{
+  cursor: pointer;
+  border-bottom: 3px solid rgba(255,255,255, 0.5);
+}
+
 .moon-writeup{
-  border: 1px solid red;
+  display: none;
 }
 
 .moon-writeup h1{
   color: rgb(255,255,255);
   font-family: 'Bellefair', serif;
   text-transform: uppercase;
-  font-size: 7rem;
+  font-size: 5rem;
   font-weight: 400;
+  margin: 2vh 0 0;
+}
+
+.moon-writeup p{
+  color: rgb(208, 214, 249);
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: 'Barlow Condensed', sans-serif;
+  width: 98%;
+  word-spacing: 0.2rem;
+  line-height: 140%;
+  margin: 2vh 0 0;
+}
+
+.mars-writeup{
+  display: none;
+}
+
+.mars-writeup h1{
+  color: rgb(255,255,255);
+  font-family: 'Bellefair', serif;
+  text-transform: uppercase;
+  font-size: 5rem;
+  font-weight: 400;
+  margin: 2vh 0 0;
+}
+
+.mars-writeup p{
+  color: rgb(208, 214, 249);
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: 'Barlow Condensed', sans-serif;
+  width: 100%;
+  word-spacing: 0.2rem;
+  line-height: 140%;
+  margin: 2vh 0 0;
+}
+
+.europa-writeup{
+  /* display: none; */
+}
+
+.europa-writeup h1{
+  color: rgb(255,255,255);
+  font-family: 'Bellefair', serif;
+  text-transform: uppercase;
+  font-size: 5rem;
+  font-weight: 400;
+  margin: 2vh 0 0;
+}
+
+.europa-writeup p{
+  color: rgb(208, 214, 249);
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: 'Barlow Condensed', sans-serif;
+  width: 100%;
+  word-spacing: 0.2rem;
+  line-height: 140%;
+  margin: 2vh 0 0;
+}
+
+.planet-info_divider{
+  border-bottom: 1px solid rgb(56, 59, 75);
+  margin: 5vh 0 0;
+}
+
+.est-block{
+  display: flex;
+}
+
+.distance-est{
+  width: 40%;
+}
+
+.distance-est .p1{
+  margin: 2vh 0 1vh;
+  font-size: 0.8rem;
+  color: rgb(208, 214, 249);
+  text-transform: uppercase;
+  font-weight: 400;
+  word-spacing: 0;
+}
+
+.distance-est .p2{
+  margin: 0;
+  font-size: 1.2rem;
+  color: rgb(255,255,255);
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: 'Bellefair', serif;
+  word-spacing: 0;
+}
+
+.days-est{
+  width: 40%;
+  margin: 0 4vw;
+}
+
+.days-est .p1{
+  margin: 2vh 0 1vh;
+  font-size: 0.8rem;
+  color: rgb(208, 214, 249);
+  text-transform: uppercase;
+  font-weight: 400;
+  word-spacing: 0;
+}
+
+
+.days-est .p2{
+  margin: 0;
+  font-size: 1.2rem;
+  color: rgb(255,255,255);
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: 'Bellefair', serif;
+  word-spacing: 0;
 }

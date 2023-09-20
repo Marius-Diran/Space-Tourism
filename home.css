@@ -101,11 +101,11 @@ body{
 
 .home-writeup{
   min-width: 40%;
-  color: rgb(255,255,255);
   margin: 0 2vw 0 10vw;
 }
 
 .home-writeup h4{
+  color: rgb(208, 214, 249);
   font-size: 1.1rem;
   font-weight: 100;
   margin: 4vh 0 1vh;
@@ -113,6 +113,7 @@ body{
 }
 
 .home-writeup h1{
+  color: rgb(255,255,255);
   font-size: 7rem;
   font-weight: 100;
   margin: 0 0 4vh 0;
@@ -125,6 +126,7 @@ body{
   font-family: 'Barlow Condensed', sans-serif;
   width: 62%;
   line-height: 170%;
+  color: rgb(208, 214, 249);
 }
 
 .explore-btn{
